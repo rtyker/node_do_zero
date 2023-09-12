@@ -1,17 +1,5 @@
-// import { createServer } from 'node:http'
-
-
-// const server = createServer((req, res)=>{
-
-//     res.write('hello world');
-//     return res.end();
-// });
-
-// server.listen(3001);
-
 import { fastify } from 'fastify';
 // import { DatabaseMemory } from './database-memory.js';
-import { title } from 'node:process';
 import { DatabasePostgres } from './database-postgres.js';
 
 const server = fastify();
